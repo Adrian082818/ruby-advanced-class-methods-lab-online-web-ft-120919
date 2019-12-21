@@ -22,7 +22,7 @@ def self.create_by_name(name)
   self.new_by_name(name).tap {|song| song.save}
 end 
 
-def self.find_by_name 
-  
+def self.find_by_name(name)
+  self.create_by_name(name).tap {|song| song.name == name}
 end 
 end
