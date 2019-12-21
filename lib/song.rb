@@ -47,7 +47,7 @@ def self.new_from_filename(filename)
 end 
 
 def self.create_from_filename
-  
+  self.new_from_filename(filename).tap {||}
 end 
 
 # def self.destroy_all
