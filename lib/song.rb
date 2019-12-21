@@ -40,7 +40,7 @@ def self.alphabetical
 end 
 
 def self.new_from_filename
-  
+  artist_name, song_name = 
 end 
 
 def self.create_from_filename
