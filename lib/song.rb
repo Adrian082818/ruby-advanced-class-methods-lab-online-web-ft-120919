@@ -29,6 +29,7 @@ end
 
 def self.find_or_create_by_name(name)
   if self.find_by_name(name) 
+    return self.find_by_name(name)
   else 
     self.create_by_name(name)
 end 
