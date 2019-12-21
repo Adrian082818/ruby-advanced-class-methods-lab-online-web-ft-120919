@@ -50,8 +50,8 @@ def self.create_from_filename(filename)
   self.new_from_filename(filename).tap { |song| song.save }
 end 
 
-# def self.destroy_all
-#   self.all.clear
-# end 
+def self.destroy_all
+  self.all.clear
+end 
 
 end
