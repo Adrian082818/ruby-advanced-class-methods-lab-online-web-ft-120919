@@ -23,6 +23,6 @@ def self.create_by_name(name)
 end 
 
 def self.find_by_name(name)
-  self.create_by_name(name).tap {|song| song.name == name }
+  self.create_by_name(name).tap {|song| song.name == song.name }
 end 
 end
