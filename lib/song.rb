@@ -14,4 +14,7 @@ class Song
     self.new.tap {|song| song.save}
   end 
 
+def self.new_by_name 
+  
+end 
 end
