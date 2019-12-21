@@ -40,7 +40,7 @@ def self.alphabetical
 end 
 
 def self.new_from_filename(filename)
-  artist_name, song_name = filename.split("-")
+  artist_name, song_name = filename.split(" - ")
 end 
 
 def self.create_from_filename
